@@ -1,3 +1,6 @@
+
+
+CREATE OR REPLACE VIEW painel_pedidos_varejo AS
 WITH
     cte_pedidos_listados as (
         SELECT
@@ -216,4 +219,5 @@ SELECT
     central_pedidos.codi_statu_pedido,
     central_pedidos.statu_pedido
 FROM
-    central_pedidos
+    central_pedidos;
+    
